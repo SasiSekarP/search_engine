@@ -63,7 +63,7 @@ function App() {
       )}
       {searchresponsearr.length > 0 || (
         <div className="alternatedisplayContainer">
-          <h3>Result will be display here</h3>
+          <h3>Result will be displayed here</h3>
           <div>
             <img
               className="globeImg"
