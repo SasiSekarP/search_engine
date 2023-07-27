@@ -39,20 +39,22 @@ function App() {
           {searchresponsearr.map((singledata, index) => {
             return (
               <div key={index} className="card">
-                <h2
+                <a
                   className="headeratag"
                   href={singledata.link}
                   target="_blank"
+                  rel="noreferrer"
                 >
                   {singledata.title}
-                </h2>
-                <div
+                </a>
+                <a
                   href={singledata.link}
                   target="_blank"
                   className="displaylink"
+                  rel="noreferrer"
                 >
                   {singledata.displayLink}
-                </div>
+                </a>
                 <div>{singledata.snippet}</div>
               </div>
             );
