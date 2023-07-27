@@ -28,6 +28,10 @@ input{
     border-bottom-left-radius: 1rem;
 }
 
+input:focus{
+    outline: none;
+}
+
 .searchbtn{
     border-top-right-radius: 1rem;
     border-bottom-right-radius: 1rem;
