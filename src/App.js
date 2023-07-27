@@ -55,7 +55,7 @@ function App() {
                 >
                   {singledata.displayLink}
                 </a>
-                <div>{singledata.snippet}</div>
+                <p>{singledata.snippet}</p>
               </div>
             );
           })}
